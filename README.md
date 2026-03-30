@@ -4,27 +4,54 @@ Python-based web scraping project designed to collect, structure, and analyze on
 
 ## Project Overview
 
-This project demonstrates how web scraping techniques can be used to extract useful information from websites and convert it into structured datasets.
+This project extracts book information from an online bookstore dataset and transforms it into structured data for analysis and visualization.
+
+The project includes:
+
+* Data extraction
+* Cleaning and conversion
+* Availability analysis
+* Price analysis
+* Rating analysis
+* Visual reporting
 
 ## Technologies
 
 * Python
-* Web Scraping
-* BeautifulSoup / Requests
-* Data Extraction
-* Automation
+* BeautifulSoup
+* Requests
+* Pandas
+* Matplotlib
 
-## Features
+## Files
 
-* Automated data collection
-* Structured dataset generation
-* Parsing and cleaning of web content
-* Reusable scraping workflow
+* `mod_main.py` → main scraping workflow
+* `Convert.py` → data cleaning and transformation
+* `books_dataset.csv` → generated dataset
+* `Histogramme des prix.py` → price distribution chart
+* `Graphique du nombre de livres par rating.py` → books by rating chart
 
-## Objective
+## Visualizations
 
-Demonstrate practical skills in data collection, web scraping, and transforming unstructured online information into usable datasets.
+### Price Distribution
+
+![Price Histogram](images/histogramme_prix.png)
+
+### Number of Books by Rating
+
+![Books by Rating](images/livres_par_rating.png)
+
+## Key Insights
+
+* Most books are concentrated in lower price ranges.
+* Higher ratings are less frequent than medium ratings.
+* The dataset can be used to identify pricing and stock trends.
 
 ## Business Value
 
-Web scraping is widely used for market research, competitive analysis, monitoring, and automated data collection workflows.
+This type of scraping workflow can be used for:
+
+* competitor monitoring
+* market research
+* price tracking
+* product availability analysis
